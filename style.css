@@ -218,3 +218,7 @@ p{
 #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
 }
+
+.star .fa{
+    color: yellow;
+}
