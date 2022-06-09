@@ -411,12 +411,20 @@ button.white{
     color: #fff;
 }
 
-#banner3.banner-box{
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(./images/lowbanner.jpeg);
+    background-image: url(./images/season1.jpeg);
     width: 30%;
     height: 30vh;
     background-size: cover;
@@ -425,7 +433,38 @@ button.white{
     margin-bottom: 20px;
 }
 
+#banner3 .banner-box2{
+    background-image: url(./images/banner3.jpg);
+}
 
+
+#banner3 .banner-box3{
+    background-image: url(./images/e.png.jpg);
+}
+
+#banner3 h2{
+    color:#fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+
+#banner3 h3{
+    color:#ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   /* background-image: url(./images/newsletter.jpeg); */
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #213c47;
+}
 
 /* Shop Page */
 
