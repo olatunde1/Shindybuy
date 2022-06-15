@@ -686,6 +686,17 @@ footer .copyright{
 
 /************************* Blog Page *************************/
 
+#page-header.blog-header{
+    background-image: url(./images/banner/banner.jpg);
+}
+
+
+#blog{
+    padding: 150px 150px 0 150px;
+}
+
+
+
 /************************* About Page *************************/
 
 /************************* Contact Page *************************/
@@ -879,7 +890,7 @@ footer .copyright{
     }
 
     #prodetails .single-pro-details {
-        width: 100%;
+        width: 10  0%;
         
     }
 
